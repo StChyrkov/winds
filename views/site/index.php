@@ -46,7 +46,7 @@ $this->title = \Yii::t('app', 'Головна - Благодійний Фонд 
         </div>
     </div>  
     <div class="button-container flex-container">
-        <a href="projects" class="link more-button button-blue"><?= \Yii::t('app', 'ДІЗНАТИСЬ БІЛЬШЕ')?></a>
+        <a href="programs" class="link more-button button-blue"><?= \Yii::t('app', 'ДІЗНАТИСЬ БІЛЬШЕ')?></a>
     </div>
 </section>
 <section class="media-vid border-low background-light-brown">
