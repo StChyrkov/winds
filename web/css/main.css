@@ -1,0 +1,264 @@
+main {
+	font-family: 'Scada', sans-serif;
+	font-weight: 400;
+}
+
+.banner-content {
+	background-image: url('../images/banner.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.banner {
+	padding-top: 330px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.banner-text {
+	font-weight: 700;
+	font-size: 28px;
+	margin-top: 20px;
+	background-color: #795447;
+	color: #8FC9F9;
+	padding: 10px;
+	margin-bottom: 25px;
+}
+
+.background-light-blue {
+	background-color:  #8FC9F9;
+}
+
+.section-title, .about-content, .button-container, .project-image, .map-container {
+	justify-content: center;
+}
+
+.section-h {
+	font-weight: 700;
+	font-size: 28px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.about-img {
+	width:  551px;
+	padding-bottom: 20px;
+}
+
+.about-text {
+	font-size: 21px;
+}
+
+.more-button {
+	font-weight: 700;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding: 10px;
+	border-radius: 45px;
+}
+
+.button-brown {
+	background-color: #795447;
+	color:  white;
+	border: 2px solid #795447;
+}
+
+.button-brown:hover {
+	background-color: white;
+	color: #795447;
+}
+
+.button-about-container {
+	margin-left: 110px;
+	margin-top: 45px;
+}
+
+.projects-content {
+	justify-content: space-around;
+}
+
+.project-content {
+	max-width: 500px;
+	background-color: #BCA9A3;
+	padding: 7px;
+	border: 2px solid #795447;
+}
+
+.project-title {
+	font-size: 22px;
+}
+
+.project-img {
+	width:  380px;
+	margin-top: 4px;
+	justify-content: center;
+}
+
+.button-blue {
+	background-color: #1975D1;
+	color: white;
+	border: 2px solid #1975D1;
+}
+
+.button-blue:hover {
+	background-color: white;
+	color: #1975D1;
+}
+
+.button-container {
+	margin-top: 20px;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+.background-light-brown {
+	background-color: #BCA9A3;
+}
+
+.video-block {
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.partners-cards {
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.partner-img {
+	width:  250px;
+}
+
+.partner-card {
+	margin-right: 20px;
+	align-items: center;
+}
+
+h1 {
+	margin-bottom: 0px;
+	font-weight: 700;
+	font-size: 36px;
+}
+
+h2 {
+	margin-top: 0px;
+}
+
+.page-banner {
+	border-bottom: 2px solid #795447;
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #8FC9F9;
+	color:  #795447;
+}
+
+.page-h2 {
+	font-weight: 700;
+	font-size: 28px;
+	padding-top: 10px;
+	border-bottom: 1px solid black;
+}
+
+.sideimage-content {
+	display: flex;
+	justify-content: center;
+}
+
+.future-img {
+	width: 375px;
+	margin-left: 13px;
+}
+
+.li-mark {
+	margin-bottom: 4px;
+}
+
+.li-mark::before {
+	content: "○  ";
+}
+
+.map-img {
+	width: 500px;
+}
+
+.whom-img {
+	width: 270px;
+	margin-right: 12px;
+}
+
+.right-list {
+	margin-left: 35px;
+}
+
+.refugees-img {
+	width: 427px;
+	margin-left: 12px;
+}
+
+.refugees2-img {
+	margin-top: 10px;
+	width: 660px;
+}
+
+.roms1-img {
+	width: 370px;
+	margin-right: 12px;
+}
+
+.viol-img {
+	height: 380px;
+}
+
+.viol-image-block {
+	justify-content: space-around;
+}
+
+.petalenca-img {
+	height: 440px;
+	margin-left: 12px;
+}
+
+.button-block {
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.org-img {
+	height: 300px;
+}
+
+.bank-name {
+	font-weight: 700;
+	font-size: 19px;
+	margin-top: 30px;
+}
+
+.bank-span {
+	font-weight: 700;
+}
+
+.bank-cor {
+	font-size: 18px;
+}
+
+.cor-bank-container {
+	border-bottom: 1px dashed black;
+}
+
+.error-image {
+	justify-content: center;
+}
+
+.error-img {
+	width: 400px;
+}
+
+.error-content {
+	font-size: 30px;
+}
+
+.padding-up {
+	padding-top: 15px;
+}
