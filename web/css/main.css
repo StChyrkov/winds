@@ -263,3 +263,70 @@ h2 {
 	padding-top: 15px;
 	padding-bottom: 20px;
 }
+
+.right-text-purchases {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.page-h1 {
+	margin-bottom: 20px;
+}
+
+.marg-top-page {
+	margin-top: 15px;
+}
+
+.page-h4 {
+	margin-top: 10px;
+}
+
+.td-dark-grey {
+	background-color: #737373;
+}
+
+.td-grey {
+	background-color: #a6a6a6;
+}
+
+.td-light-grey {
+	background-color: #d9d9d9;
+}
+
+.table-td {
+	border: 10px solid white;
+	padding: 10px;
+}
+
+.table-list {
+	margin-bottom: 5px;
+}
+
+.no-marg-bottom {
+	margin-bottom: 0px;
+}
+ .border-low-text {
+ 	text-decoration: underline;
+ }
+
+ .purchases-buttons {
+ 	justify-content: center;
+ }
+
+.purchases-button-container {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-left: 20px;
+}
+
+.purchase-p {
+	font-size: 18px;
+}
+
+.purchase-p-warning {
+	font-size: 30px;
+}

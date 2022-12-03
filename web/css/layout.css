@@ -20,11 +20,12 @@ a:hover {
 
 .logo-block {
 	justify-content: start;
+	align-items: center;
 }
 
 .logo {
-	width: 100px;
-	height: 100px;
+	width: 120px;
+	height: 120px;
 	background-image: url('../logo/logo.png');
 	background-size: cover;
 }
@@ -35,7 +36,7 @@ a:hover {
 	align-items: center;
 	margin-left: 5px;
 	font-weight: 700;
-	font-size: 24px;
+	font-size: 26px;
 	line-height: 28px;
 	color: #795447;
 }
@@ -58,6 +59,7 @@ a:hover {
 	padding: 10px 15px;
 	border-radius: 5px;
 	margin-top: 15px;
+	margin-left: 15px;
 }
 
 .menu-link {
@@ -70,10 +72,17 @@ a:hover {
 
 .nav-list {
 	align-items: center;
+   	max-width: 700px;
+}
+
+.nav-container {
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
 }
 
 .nav-line {
-	height: 18px;
+	height: 56px;
 	width: 2px;
 	background-color: #795447;
 	margin-top: 15px;

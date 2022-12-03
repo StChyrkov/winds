@@ -187,4 +187,20 @@ class SiteController extends Controller
         return $this->render('privacy');
     }
 
+    public function actionPurchases()
+    {
+        return $this->render('purchases');
+    }
+
+    public function actionActivePurchases()
+    {
+        return $this->render('active-purchases');
+    }
+
+    public function actionArchivePurchases()
+    {
+        return $this->render('archive-purchases');
+    }
+
+
 }

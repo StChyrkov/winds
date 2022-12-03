@@ -17,7 +17,7 @@ AppAsset::register($this);
 <html lang="<?= Yii::$app->language ?>" class="h-100">
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!--     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
     <?php $this->registerCsrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
@@ -45,7 +45,8 @@ AppAsset::register($this);
         'programs' => 'Програми',
         'media' => 'ЗМІ про нас',
         'partners' => 'Партнери',
-        'donate' => 'Внесок'
+        'donate' => 'Внесок',
+        'purchases' => 'Закупівлі'
     ];
 
     ?>
@@ -59,13 +60,15 @@ AppAsset::register($this);
             </div>
             <nav class="nav">
                 <ul class="nav-list flex-container">
-                    <? foreach ($navItems as $url => $name) :?>
+                    <div class="nav-container flex-container">
+                        <? foreach ($navItems as $url => $name) :?>
                         <? if ($url != $action) :?>
                             <li class="nav-item">
                                 <a href="<?= $url ?>" class="link nav-link menu-link uppercase"><?= \Yii::t('app', $name)?></a>
                             </li>
                         <? endif; ?>
                     <? endforeach; ?>
+                    </div>
                     <li class="nav-line">
                     </li>
                     <li class="nav-item">
