@@ -59,8 +59,8 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-                '<action:(index|programs|media|partners|donate|about|privacy|purchases|active-purchases|archive-purchases)>' => 'site/<action>',
-                '<lang:\w+>/<action:(index|programs|media|partners|donate|about|privacy|error|purchases|active-purchases|archive-purchases)>' => 'site/<action>',
+                '<action:(index|programs|media|partners|donate|about|privacy|purchases|active-purchases|archive-purchases|purchase-1|purchase-2|purchase-3)>' => 'site/<action>',
+                '<lang:\w+>/<action:(index|programs|media|partners|donate|about|privacy|error|purchases|active-purchases|archive-purchases|purchase-1|purchase-2|purchase-3)>' => 'site/<action>',
             ],
         ],
         

@@ -330,3 +330,19 @@ h2 {
 .purchase-p-warning {
 	font-size: 30px;
 }
+
+.purchase-title-small {
+	font-size: 24px;
+}
+
+.purchase-card-small {
+	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-bottom: 25px;
+}
+
+.disp-center {
+	justify-content: center;
+}

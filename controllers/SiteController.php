@@ -202,5 +202,20 @@ class SiteController extends Controller
         return $this->render('archive-purchases');
     }
 
+    public function actionPurchase1()
+    {
+        return $this->render('purchase-1');
+    }
+
+    public function actionPurchase2()
+    {
+        return $this->render('purchase-2');
+    }
+
+    public function actionPurchase3()
+    {
+        return $this->render('purchase-3');
+    }
+
 
 }
