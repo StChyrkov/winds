@@ -59,8 +59,8 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-                '<action:(index|programs|media|partners|donate|about|privacy|purchases|active-purchases|archive-purchases|purchase-1|purchase-2|purchase-3|purchase-4|purchase-5|purchase-6|purchase-7)>' => 'site/<action>',
-                '<lang:\w+>/<action:(index|programs|media|partners|donate|about|privacy|error|purchases|active-purchases|archive-purchases|purchase-1|purchase-2|purchase-3|purchase-4|purchase-5|purchase-6|purchase-7)>' => 'site/<action>',
+                '<action:(index|programs|media|partners|donate|about|privacy|purchases|active-purchases|archive-purchases|purchase-1|purchase-2|purchase-3|purchase-4|purchase-5|purchase-6|purchase-7|purchase-8|purchase-9)>' => 'site/<action>',
+                '<lang:\w+>/<action:(index|programs|media|partners|donate|about|privacy|error|purchases|active-purchases|archive-purchases|purchase-1|purchase-2|purchase-3|purchase-4|purchase-5|purchase-6|purchase-7|purchase-8|purchase-9)>' => 'site/<action>',
             ],
         ],
         
