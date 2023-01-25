@@ -318,8 +318,8 @@ h2 {
  }
 
 .purchases-button-container {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	margin-left: 20px;
 }
 
@@ -345,4 +345,28 @@ h2 {
 
 .disp-center {
 	justify-content: center;
+}
+
+.big-purchase {
+	font-size: 40px;
+}
+
+.purchase-big-button {
+	font-size: 40px;
+}
+
+.lower-projects {
+	margin-top: 30px;
+}
+
+.unicef-img {
+	height: 450px;
+}
+
+.p-marg-top {
+	margin-top: 15px;
+}
+
+.slovak-img {
+	height: 400px;
 }

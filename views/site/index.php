@@ -45,6 +45,24 @@ $this->title = \Yii::t('app', 'Головна - Благодійний Фонд 
             </div>
         </div>
     </div>  
+    <div class="container projects-content flex-container lower-projects">
+        <div class="project-content">
+            <h3 class="project-title"><?= \Yii::t('app', 'Підтримка родин з дітьми, що опинилися у складних життєвих обставинах, внаслідок збройного конфлікту в Україні.
+            Даний проєкт реалізується в Одеській та Миколаївській областях БО «БФ Вітри змін» за підтримки Дитячого фонду ООН (ЮНІСЕФ).
+            ')?></h3>
+            <div class="project-image flex-container">
+                <img src="../images/unicef-1.jpg" alt="project" class="project-img">
+            </div>
+        </div>
+        <div class="project-content">
+            <h3 class="project-title"><?= \Yii::t('app', 'Фонд «Вітри змін»  допомогає жінкам із вразливих груп населенняє отримати якісну меддопомогу.
+            Програма проходить за підтримки Словацького посольства.  Безкоштовну медичну допомогу гінеколога та мамолога можуть отримати переселенки із зон бойових дій, а також жінки ромського походження.
+            ')?></h3>
+            <div class="project-image flex-container">
+                <img src="../images/slovak-1.jpg" alt="project" class="project-img">
+            </div>
+        </div>
+    </div>  
     <div class="button-container flex-container">
         <a href="programs" class="link more-button button-blue"><?= \Yii::t('app', 'ДІЗНАТИСЬ БІЛЬШЕ')?></a>
     </div>
