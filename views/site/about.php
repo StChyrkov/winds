@@ -4,7 +4,7 @@
 
 use yii\helpers\Html;
 
-$this->title = \Yii::t('about', 'Про нас - Благодійний Фонд "Вітри Змін"');
+$this->title = \Yii::t('app', 'Про нас - Благодійний Фонд "Вітри Змін"');
 ?>
 
 <div class="page-banner uppercase">
