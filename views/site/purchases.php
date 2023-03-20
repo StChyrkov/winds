@@ -20,6 +20,6 @@ $this->title = \Yii::t('app', 'Закупівлі - Благодійний Фо�
 </div>
 <div class="background-light padding-up">
     <div class="container">
-	<p class="purchase-p big-purchase"><?= \Yii::t('app', 'До подачі Пропозиції просимо ознайомитись з  ')?><a href="https://docs.google.com/document/d/1YyGcXMLy27LOxRLKXRfeVWWkXOYc4dyD/edit" class="link" target="_blank"><?= \Yii::t('app', 'Політикою Закупівель')?></a><?= \Yii::t('app', ' БЛАГОДІЙНОЇ ОРГАНІЗАЦІЇ «БЛАГОДІЙНИЙ ФОНД «ВІТРИ ЗМІН».')?></p>
+	<p class="purchase-p big-purchase"><?= \Yii::t('app', 'До подачі Пропозиції просимо ознайомитись з  ')?><a href="../pdf/purchase-policy.pdf" class="link" target="_blank"><?= \Yii::t('app', 'Політикою Закупівель')?></a><?= \Yii::t('app', ' БЛАГОДІЙНОЇ ОРГАНІЗАЦІЇ «БЛАГОДІЙНИЙ ФОНД «ВІТРИ ЗМІН».')?></p>
     </div>
 </div>

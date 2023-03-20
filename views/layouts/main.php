@@ -46,7 +46,8 @@ AppAsset::register($this);
         'media' => 'ЗМІ про нас',
         'partners' => 'Партнери',
         'donate' => 'Внесок',
-        'purchases' => 'Закупівлі'
+        'purchases' => 'Закупівлі',
+        'policies' => 'Полiтики'
     ];
 
     ?>
