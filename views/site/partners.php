@@ -71,5 +71,8 @@ $this->title = \Yii::t('app', 'Наші партнери - Благодійни�
 		<div class="partner-card flex-container">
 			<a href="https://www.unicef.org/ukraine/" target="_blank" class="link"><img src="../logo/logo-unicef.jpg" alt="unicef" class="partner-img"></a>
 		</div>
+		<div class="partner-card flex-container">
+            <a href="https://sites.google.com/site/nextworldnowcommunity/home" class="link" target="_blank"><img src="../logo/logo-nextworld.png" alt="nextworld" class="partner-img"></a>
+        </div>
 	</div>
 </div>

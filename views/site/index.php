@@ -116,7 +116,7 @@ $this->title = \Yii::t('app', 'Головна - Благодійний Фонд 
             <a href="https://www.irf.ua/" class="link" target="_blank"><img src="../logo/logo-vidrodjennya.svg" alt="vidrodjennya" class="partner-img"></a>
         </div>
         <div class="partner-card flex-container">
-            <a href="https://www.we-aid.org/berlin-odessa-express.html" class="link" target="_blank"><img src="../logo/logo-boe.png" alt="boe" class="partner-img"></a>
+            <a href="https://sites.google.com/site/nextworldnowcommunity/home" class="link" target="_blank"><img src="../logo/logo-nextworld.png" alt="nextworld" class="partner-img"></a>
         </div>
         <div class="button-container">
             <a href="partners" class="link more-button button-brown"><?= \Yii::t('app', 'БІЛЬШЕ ПАРТНЕРІВ')?></a>
