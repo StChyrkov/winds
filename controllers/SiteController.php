@@ -312,4 +312,9 @@ class SiteController extends Controller
         return $this->render('purchase-21');
     }
 
+    public function actionPurchase22()
+    {
+        return $this->render('purchase-22');
+    }
+
 }
