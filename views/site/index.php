@@ -10,6 +10,19 @@ $this->title = \Yii::t('app', 'Головна - Благодійний Фонд 
         <p class="banner-text uppercase"><?= \Yii::t('app', 'ПЛАТФОРМА ЖІНОЧИХ ІНІЦІАТИВ')?></p>
     </div>
 </div>
+<section class="mini-grants background-light border-low">
+    <div class="section-title flex-container">
+        <h2 class="section-h uppercase">УВАГА!</h2>
+    </div>
+    <div class="container">
+        <p class="mini-grants-main">
+            Перший відбір до програми міні-грантів з мінної безпеки для молоді в Одеській та Миколаївській областях відкрито. ПРИЙМАЄМО ЗАЯВКИ!
+        </p>
+        <div class="button-container flex-container">
+            <a href="mini-grants" class="link more-button button-blue">Детальнiше</a>
+        </div>
+    </div>
+</section>
 <section class="about background-light-blue border-low">
     <div class="section-title flex-container">
         <h2 class="section-h uppercase"><?= \Yii::t('app', 'Про фонд')?></h2>

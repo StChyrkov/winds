@@ -207,6 +207,11 @@ class SiteController extends Controller
         return $this->render('policies');
     }
 
+    public function actionMiniGrants()
+    {
+        return $this->render('mini-grants');
+    }
+
     public function actionPurchase1()
     {
         return $this->render('purchase-1');
