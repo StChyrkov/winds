@@ -16,5 +16,6 @@ $this->title = \Yii::t('app', 'Полiтики - Благодійний Фонд
         <p><a href="../pdf/purchase-policy.pdf" class="link policy-link" target="_blank"><?= \Yii::t('app', 'Політика Закупівель')?></a></p>
         <p><a href="../pdf/PSEA-policy.pdf" class="link policy-link" target="_blank"><?= \Yii::t('app', 'Політика PSEA')?></a></p>
         <p><a href="../pdf/ethic-policy.pdf" class="link policy-link" target="_blank"><?= \Yii::t('app', 'КОДЕКС ЕТИЧНОЇ ПОВЕДІНКИ ПРАЦІВНИКІВ')?></a></p>
+        <p><a href="../pdf/risk-policy.pdf" class="link policy-link" target="_blank"><?= \Yii::t('app', 'ПОЛІТИКА оцінки ризиків закупівель та надійності контрагентів')?></a></p>
     </div>
 </div>
