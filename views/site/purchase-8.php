@@ -21,6 +21,8 @@ $this->title = \Yii::t('app', 'Активні закупівлі - Благод�
         <p>Кінцевий термін подачі заявок: 03 сiчня 2023 року о 18.00 (за київським часом).</p>
         <p><a href="https://docs.google.com/document/d/118n2yfB5kV5ZlNEpJCNByMH_6Ima5UO_/edit#" class="link border-low-text" target="_blank">ФОРМА Б. ТЕНДЕР</a></p>
         <p><a href="https://docs.google.com/document/d/16v9rdZSvr4jlJJ2N8fpG08ZY1_l7ANhe/edit" class="link border-low-text" target="_blank">Додаток 1 до Тендерної пропозиці</a></p>
+        <p><a href="../pdf/purchase08-protocol.pdf" class="link border-low-text" target="_blank">Протокол засiдання тендерного комiтету</a></p>
+        <p><a href="../pdf/purchase08-message-05.01.23.pdf" class="link border-low-text" target="_blank">Повiдомлення вiд 05.01.2023</a></p>
         <p>У разі виникнення запитань та/або уточнень, просимо звертатися за ел.адресою <b>windsofchanges.tender@gmail.com</b></p>
         <div class="flex-container disp-center">
             <a href="active-purchases" class="link more-button button-blue">ВСІ АКТИВНІ ЗАКУПІВЛІ</a>
