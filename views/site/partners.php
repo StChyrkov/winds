@@ -60,7 +60,7 @@ $this->title = \Yii::t('app', 'Наші партнери - Благодійни�
 			<a href="https://www.facebook.com/groups/266372574065747/" target="_blank" class="link"><img src="../logo/logo-rotary.jpg" alt="rotary" class="partner-img"></a>
 		</div>
 		<div class="partner-card flex-container">
-			<a href="https://www.mzv.sk/web/kyjev-en" target="_blank" class="link"><img src="../logo/logo-slovakia-embassy.png" alt="slovakia-foreign" class="partner-img"></a>
+			<a href="https://slovakaid.sk/en/" target="_blank" class="link"><img src="../logo/logo-slovakaid.svg" alt="slovakia-foreign" class="partner-img"></a>
 		</div>
 		<div class="partner-card flex-container">
 			<a href="https://ru-ru.facebook.com/newgeneration.kherson/" target="_blank" class="link"><img src="../logo/logo-newgen.jpg" alt="newgen" class="partner-img"></a>
