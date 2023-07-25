@@ -1,5 +1,8 @@
 <?php
 return [
+    'Для партнерiв та донорiв' => 'For partners and donors',
+    'Для допомоги' => 'For help',
+    'Пiдтримати' => 'Donate',
     'Благодіний Фонд' => 'Charity Foundation',
     '"Вітри Змін"' => '"Winds of Changes"',
     'Головна' => 'Main',

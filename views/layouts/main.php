@@ -28,15 +28,19 @@ AppAsset::register($this);
 <body class="d-flex flex-column h-100">
 <?php $this->beginBody() ?>
 
-<header class="background-light border-low">
+<header class="background-graphite border-low">
     <?php
 
     $action = Yii::$app->controller->action->id;
 
     if (Yii::$app->language == 'en') {
         $langMenu = $action;
+        $logo = 'logo-en';
+        $langLogo = 'lang-logo-ukr';
     } else {
         $langMenu = 'en/' . $action;
+        $logo = 'logo-ukr';
+        $langLogo = 'lang-logo-en';
     }
 
     $navItems = [
@@ -45,7 +49,6 @@ AppAsset::register($this);
         'programs' => 'Програми',
         'media' => 'ЗМІ про нас',
         'partners' => 'Партнери',
-        'donate' => 'Внесок',
         'purchases' => 'Закупівлі',
         'policies' => 'Полiтики'
     ];
@@ -53,11 +56,7 @@ AppAsset::register($this);
     ?>
     <div class="container header-nav flex-container">
             <div class="logo-block flex-container">
-                <div class="logo"></div>
-                <div class="logo-text flex-container">
-                    <p class="logo-p"><?= \Yii::t('app', 'Благодіний Фонд')?></p>
-                    <p class="logo-p"><?= \Yii::t('app', '"Вітри Змін"')?></p>
-                </div>
+                <div class = <?= $logo ?>></div>
             </div>
             <nav class="nav">
                 <ul class="nav-list flex-container">
@@ -70,13 +69,12 @@ AppAsset::register($this);
                         <? endif; ?>
                     <? endforeach; ?>
                     </div>
-                    <li class="nav-line">
-                    </li>
-                    <li class="nav-item">
-                        <a href="../<?= $langMenu ?>" class="link nav-link lang-link uppercase"><?= \Yii::t('app', 'ENG')?></a>
-                    </li>
                 </ul>
             </nav>
+            <div class="right-block flex-container">
+                <a href="donate" class="link donate-link uppercase"><?= \Yii::t('app', 'Пiдтримати')?></a>
+                <a href="../<?= $langMenu ?>" class="link nav-link lang-link uppercase"><img src="../logo/<?=$langLogo ?>.png" alt="lang-logo" class="lang-img"></a>
+            </div>
         </div>
 </header>
 
@@ -86,15 +84,11 @@ AppAsset::register($this);
 
 </main>
 
-<footer class="site-footer border-up background-brown-dark">
+<footer class="site-footer border-up background-graphite">
     <div class="container flex-container footer-items">
         <div>
             <div class="logo-block flex-container">
-                <div class="logo footer-logo"></div>
-                <div class="logo-text flex-container footer-logo-text">
-                    <p class="logo-p"><?= \Yii::t('app', 'Благодіний Фонд')?></p>
-                    <p class="logo-p"><?= \Yii::t('app', '"Вітри Змін"')?></p>
-                </div>
+                <div class = <?= $logo ?>></div>
             </div>
             <nav class="footer-nav">
                 <ul class="footer-menu">
@@ -117,17 +111,27 @@ AppAsset::register($this);
             <p class="contacts-title"><?= \Yii::t('app', 'Контакти')?></p>
                 <p class="contacts-item"><?= \Yii::t('app', 'Телефон')?>: +380730376996</p>
                 <p class="contacts-item"><?= \Yii::t('app', 'Телефон довіри SOS Roma')?>: +380960376996</p>
-                <p class="contacts-item">E-mail: windsofchanges.cr@gmail.com</p>
-                <p class="contacts-item second-mail">windsofchanges.od@gmail.com</p>
+                <p class="contacts-item"><?= \Yii::t('app', 'Для партнерiв та донорiв')?>: windsofchanges.od@gmail.com</p>
+                <p class="contacts-item"><?= \Yii::t('app', 'Для допомоги')?>: help@windsofchanges.com.ua</p>
         </div>
         <div class="footer-contacts">
                 <p class="contacts-title"><?= \Yii::t('app', 'Соціальні мережі')?></p>
-                <div class="media-links">
-                    <div class="media-container flex-container">
-                        <a href="https://www.facebook.com/WindsofChangesOdessa/" class="link" target="_blank"><img src="../logo/facebook.png" alt="facebook" class="media-img"></a>
+                <div class="media-links flex-container">
+                    <div class="media-up flex-container">
+                        <div class="media-container flex-container">
+                            <a href="https://www.facebook.com/WindsofChangesOdessa/" class="link" target="_blank"><img src="../logo/facebook.png" alt="facebook" class="media-img"></a>
+                        </div>
+                        <div class="media-container flex-container">
+                            <a href="https://www.instagram.com/windsofchanges.od/" class="link" target="_blank"><img src="../logo/instagram.png" alt="instagram" class="media-img"></a>
+                        </div>
                     </div>
-                    <div class="media-container flex-container">
-                        <a href="https://instagram.com/petalenca?igshid=YmMyMTA2M2Y=" class="link" target="_blank"><img src="../logo/instagram.png" alt="instagram" class="media-img"></a>
+                    <div class="media-low flex-container">
+                        <div class="media-container flex-container">
+                            <a href="https://twitter.com/VitryZmin" class="link" target="_blank"><img src="../logo/twitter-logo.png" alt="twitter" class="media-img"></a>
+                        </div>
+                        <div class="media-container flex-container">
+                            <a href="https://www.youtube.com/@windsofchanges_CF" class="link" target="_blank"><img src="../logo/youtube-logo.png" alt="youtube" class="media-img"></a>
+                        </div>
                     </div>
                 </div>
             </div>
