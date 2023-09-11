@@ -59,8 +59,8 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-                '<action:(index|programs|media|partners|donate|about|privacy|purchases|active-purchases|archive-purchases|policies|mini-grants|purchase-1|purchase-2|purchase-3|purchase-4|purchase-5|purchase-6|purchase-7|purchase-8|purchase-9|purchase-10|purchase-11|purchase-12|purchase-13|purchase-14|purchase-15|purchase-16|purchase-17|purchase-18|purchase-19|purchase-20|purchase-21|purchase-22|purchase-23|purchase-24|purchase-25|purchase-26)>' => 'site/<action>',
-                '<lang:\w+>/<action:(index|programs|media|partners|donate|about|privacy|error|purchases|active-purchases|archive-purchases|policies|mini-grants|purchase-1|purchase-2|purchase-3|purchase-4|purchase-5|purchase-6|purchase-7|purchase-8|purchase-9|purchase-10|purchase-11|purchase-12|purchase-13|purchase-14|purchase-15|purchase-16|purchase-17|purchase-18|purchase-19|purchase-20|purchase-21|purchase-22|purchase-23|purchase-24|purchase-25|purchase-26)>' => 'site/<action>',
+                '<action:(index|programs|media|partners|donate|about|privacy|purchases|active-purchases|archive-purchases|policies|mini-grants|purchase-1|purchase-2|purchase-3|purchase-4|purchase-5|purchase-6|purchase-7|purchase-8|purchase-9|purchase-10|purchase-11|purchase-12|purchase-13|purchase-14|purchase-15|purchase-16|purchase-17|purchase-18|purchase-19|purchase-20|purchase-21|purchase-22|purchase-23|purchase-24|purchase-25|purchase-26|purchase-27)>' => 'site/<action>',
+                '<lang:\w+>/<action:(index|programs|media|partners|donate|about|privacy|error|purchases|active-purchases|archive-purchases|policies|mini-grants|purchase-1|purchase-2|purchase-3|purchase-4|purchase-5|purchase-6|purchase-7|purchase-8|purchase-9|purchase-10|purchase-11|purchase-12|purchase-13|purchase-14|purchase-15|purchase-16|purchase-17|purchase-18|purchase-19|purchase-20|purchase-21|purchase-22|purchase-23|purchase-24|purchase-25|purchase-26|purchase-27)>' => 'site/<action>',
             ],
         ],
         
