@@ -13,7 +13,7 @@ $this->title = \Yii::t('app', 'Активні закупівлі - Благод�
 
 <div class="background-light padding-up">
     <div class="container">
-    	<p class="purchase-p"><?= \Yii::t('app', 'До подачі Пропозиції просимо ознайомитись з  ')?><a href="https://docs.google.com/document/d/1YyGcXMLy27LOxRLKXRfeVWWkXOYc4dyD/edit" class="link" target="_blank"><?= \Yii::t('app', 'Політикою Закупівель')?></a><?= \Yii::t('app', ' БЛАГОДІЙНОЇ ОРГАНІЗАЦІЇ «БЛАГОДІЙНИЙ ФОНД «ВІТРИ ЗМІН».')?></p>
+    	<p class="purchase-p"><?= \Yii::t('app', 'До подачі Пропозиції просимо ознайомитись з  ')?><a href="../pdf/purchase-policy-10.05.23.pdf" class="link" target="_blank"><?= \Yii::t('app', 'Політикою Закупівель')?></a><?= \Yii::t('app', ' БЛАГОДІЙНОЇ ОРГАНІЗАЦІЇ «БЛАГОДІЙНИЙ ФОНД «ВІТРИ ЗМІН».')?></p>
         <div class="purchase-card-small td-light-grey">
             <div class="right-text-purchases">
                 <p class="page-p">09.09.2023</p>
