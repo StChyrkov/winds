@@ -98,9 +98,6 @@ $this->title = \Yii::t('app', 'Головна - Благодійний Фонд 
             <iframe width="500" height="283" src="https://www.youtube.com/embed/JS5rUlcTNY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
-    <div class="button-container flex-container">
-        <a href="media" class="link more-button button-blue"><?= \Yii::t('app', 'БІЛЬШЕ СЮЖЕТІВ')?></a>
-    </div>
 </section>
 <section class="partners">
     <div class="section-title flex-container">

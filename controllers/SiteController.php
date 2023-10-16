@@ -148,16 +148,6 @@ class SiteController extends Controller
     }
 
     /**
-     * Displays media page.
-     *
-     * @return string
-     */
-    public function actionMedia()
-    {
-        return $this->render('media');
-    }
-
-    /**
      * Displays partners page.
      *
      * @return string

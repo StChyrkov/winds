@@ -1,5 +1,11 @@
 <?php
 return [
+    'ЗАКУПІВЛІ І ТЕНДЕРИ' => 'PROCUREMENT AND TENDERS',
+    'Етичний кодекс БО «БФ Вітри Змін»' => 'Code of Conduct of CO “CF Winds of Changes”',
+    'Політика з протидії сексуальної експлуатації та насильству' => 'PSEA Policy',
+    'Політика закупівель' => 'Procurement Policy',
+    'Політики Благодійної Організації «Благодійний Фонд Вітри Змін»' => 'Policies of the
+    Charitable Organization “Charitable Foundation Winds of Changes”',
     'Для партнерiв та донорiв' => 'For partners and donors',
     'Для допомоги' => 'For help',
     'Пiдтримати' => 'Donate',
@@ -11,7 +17,7 @@ return [
     'ЗМІ про нас' => 'Media about us',
     'Партнери' => 'Partners',
     'Внесок' => 'Donate',
-    'Закупівлі' => 'Purchases',
+    'Закупівлі' => 'Procurement',
     'ENG' => 'УКР',
     'Про нас' => 'About us',
     'Програми' => 'Programs',
@@ -102,7 +108,12 @@ return [
     'ЗМІ про нас - Благодійний Фонд "Вітри Змін"' => 'Media about us - Charitable Foundation "Winds of Changes"',
     'Наші партнери - Благодійний Фонд "Вітри Змін"' => 'Our partners - Charitable Foundation "Winds of Changes"',
     'Наші партнери та донатери' => 'Our partners and donaters',
-    'Благодійний Фонд «Вітри змін» висловлює вдячність всім партнерам, які допомагають нам досягти місії, втілювати стратегії, вносять вклад в досягненні однієї з глобальних цілей сталого розвитку з забезпечення гендерної рівності, розширення прав і можливостей усіх жінок та дівчаток, подолання всіх форм дискримінації та насильства щодо жінок і дівчаток, і ми впевнено крокуємо разом на шляху до створення суспільства, в якому чоловіки та жінки мають рівні права.' => 'Charitable Foundation "Winds of Changes" expresses its gratitude to all partners who help us achieve our mission and implement strategies, contribute to the achievement of the global goals of sustainable development to ensure gender equality, empower all women and girls, and overcome all forms of discrimination and violence for women and girls. We confidently step together towards creating a society in which men and women have equal rights.',
+    'Благодійна Організація «Благодійний Фонд Вітри Змін» висловлює вдячність всім партнерам і донатерам, які допомагають нам у досягненні нашої місії, втіленні стратегій для досягненні однієї з найважливіших цілей: сталого розвитку у забезпеченні гендерної рівності, розширенні прав і можливостей усіх жінок та дівчат, подолання всіх форм дискримінації та насильства щодо них. Разом в з вами ми впевнено крокуємо на шляху до створення суспільства, в якому чоловіки та жінки мають рівні права і можливості.' => 'The Charitable Organization "Charitable Foundation Winds of Changes"
+        expresses its gratitude to all partners and donors who help us achieve our mission, implement strategies to
+        achieve one of the most important goals: sustainable development in ensuring gender equality, expanding
+        the rights and opportunities of all women and girls, overcoming all forms of discrimination and violence
+        against them. Together with you, we confidently step on the path to creating a society in which men and
+        women have equal rights and opportunities.',
     'Внесок - Благодійний Фонд "Вітри Змін"' => 'Donate - Charitable Foundation "Winds of Changes"',
     'Зробити внесок' => 'Donate',
     'Для підтримки жінок та дівчат, народу України у подоланні наслідків російської збройної агресії.' => 'To support women and girls, the people of Ukraine in overcoming the consequences of Russian armed aggression.',
@@ -156,13 +167,15 @@ return [
     'Сторінка не знайдена - Благодійний Фонд "Вітри Змін"' => 'Page not found - Charitable Foundation "Winds of Changes"',
     'Нажаль, такої сторніки на сайті не існує.' => 'Unfortunately, such a page does not exist on the website.',
     'Оберіть цікавий вам розділ з меню.' => 'Please, choose the section you are interested in from the menu.',
-    'Активні закупівлі' => 'Active purchases',
-    'Архів закупівель' => 'Archive purchases',
+    'Активні закупівлі' => 'Active Procurement',
+    'Архів' => 'Archive',
     'Активні закупівлі - Благодійний Фонд "Вітри Змін"' => 'Active purchases - Charitable Foundation "Winds of Changes"',
     'Архів закупівель - Благодійний Фонд "Вітри Змін"' => 'Archive purchases - Charitable Foundation "Winds of Changes"',
     'В архіві відсутні закупівлі.' => 'There are no purchases in the archive.',
     'Зараз відсутні активні закупівлі.' => "There are currently no active purchases.",
-    'До подачі Пропозиції просимо ознайомитись з  ' => 'Before submitting the Proposal, please familiarize yourself with ',
-    'Політикою Закупівель' => 'Purchasing Policy',
-    ' БЛАГОДІЙНОЇ ОРГАНІЗАЦІЇ «БЛАГОДІЙНИЙ ФОНД «ВІТРИ ЗМІН».' => ' of Charity Foundation "Winds of Changes"'
+    'До подачі заявки просимо ознайомитись з  ' => 'Before submitting an
+    application, please familiarize yourself with the ',
+    'Політикою Закупівель' => 'Procurement Policy',
+    ' Благодійної Організації «Благодійний Фонд Вітри Змін».' => ' of the Charitable Organization “Charitable Foundation Winds
+    of Changes”.',
 ];

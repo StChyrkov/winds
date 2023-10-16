@@ -28,7 +28,7 @@ AppAsset::register($this);
 <body class="d-flex flex-column h-100">
 <?php $this->beginBody() ?>
 
-<header class="background-graphite border-low">
+<header class="background-graphite">
     <?php
 
     $action = Yii::$app->controller->action->id;
@@ -47,7 +47,6 @@ AppAsset::register($this);
         'index' => 'Головна',
         'about' => 'Про фонд',
         'programs' => 'Програми',
-        'media' => 'ЗМІ про нас',
         'partners' => 'Партнери',
         'purchases' => 'Закупівлі',
         'policies' => 'Полiтики'
