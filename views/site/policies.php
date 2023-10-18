@@ -18,5 +18,6 @@ $this->title = \Yii::t('app', 'Полiтики - Благодійний Фонд
         <p><a href="../pdf/ethic-policy.pdf" class="link policy-link" target="_blank"><?= \Yii::t('app', 'Етичний кодекс БО «БФ Вітри Змін»')?></a></p>
         <p><a href="../pdf/risk-policy.pdf" class="link policy-link" target="_blank"><?= \Yii::t('app', 'Політика оцінки ризиків закупівель та надійності контрагентів')?></a></p>
         <p><a href="../pdf/behaviour-policy.pdf" class="link policy-link" target="_blank"><?= \Yii::t('app', 'Політика стандартів поведінки працівників')?></a></p>
+        <p><a href="../pdf/anticorruption-policy.pdf" class="link policy-link" target="_blank"><?= \Yii::t('app', 'АНТИКОРУПЦІЙНА ПОЛІТИКА БЛАГОДІЙНОЇ ОРГАНІЗАЦІЇ «БЛАГОДІЙНИЙ ФОНД «ВІТРИ ЗМІН»')?></a></p>
     </div>
 </div>
